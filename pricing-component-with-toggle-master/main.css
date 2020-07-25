@@ -1,0 +1,57 @@
+body{
+	font-family: 'Montserrat', Sans-serif;
+	background-color: hsl(240, 78%, 98%);
+}
+ h1{
+	font-weight: bolder;
+	color: hsl(232, 13%, 33%);
+	text-align: center;
+	margin-bottom: 3em;
+}
+#master, #basic{
+	box-shadow: 1px 1px #FFFFFF;
+
+  border-radius: 5px;
+  box-shadow: 0 7px 20px 0px rgba(25, 25, 25, 0.15)
+}
+
+#professional{
+box-shadow: 1px 1px hsl(232, 13%, 33%);
+
+  border-radius: 5px;
+  box-shadow: 0 7px 20px 0px rgba(25, 25, 25, 0.15);
+  background-image: linear-gradient(0deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+
+
+
+}
+ul{
+	list-style-type: none;
+	margin-right: 2em;
+
+}
+li{
+	font-weight: bolder;
+	color: hsl(232, 13%, 33%);
+	text-align: center;
+}
+.second{
+	font-size: 70px;
+	font-weight: bolder;
+
+}
+#not_professional_button{
+	background-image: linear-gradient(0deg, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+	color: white;
+}
+#professional > ul > li{
+	color: white;
+}
+#professional_button{
+	background-color: white;
+	color: 
+}
+@media all and (max-width: 375px){
+	.col-md-4
+
+}
